@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Alatsi";
+    src: url(fonts/Alatsi/Alatsi-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Protest Guerrilla";
+    src: url(fonts/Protest_Guerrilla/ProtestGuerrilla-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Gafata";
+    src: url(fonts/Gafata/Gafata-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .banner img {
     margin: 0;
@@ -58,4 +79,91 @@
     text-decoration-color: #BC1FE1;
 }
 
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    /* Isso distribui os itens uniformemente, empurrando o texto para a esquerda e a imagem para a direita */
+    align-items: center;
+    /* Isso alinha verticalmente os itens ao centro */
 
+    margin: 60px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre h2 {
+    font-family: "Protest Guerrilla";
+    font-size: 72px;
+
+}
+
+#sobre p {
+    font-family: "Gafata";
+    font-size: 32px;
+}
+
+#sobre img {
+    margin-left: 20px;
+}
+
+#trabalhos {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#trabalhos h2 {
+    margin-bottom: 70px;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #BC1FE1;
+    border-radius: 4px;
+
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+.card img {
+    height: 55%;
+    width: 100%;
+}
+
+.card button {
+    background-color: #FEFCD7;
+    color: #696757;
+
+    width: 90%;
+    height: 40px;
+
+    border: #FBEE37;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "Alatsi";
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background-color 500ms ease;
+}
+
+.card button:hover {
+    background-color: #FCF586;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+}
