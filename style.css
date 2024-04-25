@@ -137,7 +137,7 @@
 }
 
 .card img {
-    height: 55%;
+    height: 100%;
     width: 100%;
 }
 
@@ -167,3 +167,82 @@
     display: flex;
     justify-content: space-between;
 }
+
+.cor2 {
+    height: 100vh;
+
+    background-color: #FCF69A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* ajuste conforme necessário */
+    margin: 0 auto;
+    /* centraliza o container na página */
+
+    position: absolute;
+    top: 2700px;
+    left: 150px;
+
+}
+
+.fotos img {
+    width: 275px;
+    /* ajuste conforme necessário */
+    height: auto;
+
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.textos {
+    display: flex;
+
+}
+
+.textos p {
+    font-family: "Gafata";
+    font-size: 24px;
+
+    text-align: center;
+
+    flex: 1;
+    margin: 150px 50px;
+    /* Margem entre os parágrafos */
+
+    margin-top: 400px;
+}
+
+.cor1 {
+    height: 20vh;
+
+    background-color: #FCF69A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor1 h2 {
+    font-size: 72px;
+    font-family: "Protest Guerrilla";
+    text-transform: capitalize;
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.degrade1 img {
+    height: 300px;
+    width: 1515px;
+}
+
