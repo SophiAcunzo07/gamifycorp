@@ -87,6 +87,8 @@
     /* Isso alinha verticalmente os itens ao centro */
 
     margin: 60px;
+
+    margin-top: -50px;
 }
 
 .texto {
@@ -112,7 +114,246 @@
     margin-left: 20px;
 }
 
-#trabalhos {
+#cases {
+    height: 800px;
+    padding: 0 10%;
+    margin: 150px 0px 0px 0px;
+
+    margin-top: -100px;
+}
+
+#cases h2 {
+
+    padding: 100px 0 100px 0;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    font-size: 68px;
+    font-family: "Protest Guerrilla";
+}
+
+
+
+.container1 {
+    position: relative;
+    height: 370px;
+    width: 300px;
+
+
+}
+
+.container1:hover .flip1 {
+    transform: rotateY(180deg);
+}
+
+.flip1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+.frente1,
+.tras1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #0000001b;
+
+    backface-visibility: hidden;
+
+}
+
+.frente1 {
+    background-image: url(img/ecosoy\ \(1\).png);
+    background-size: cover;
+}
+
+.tras1 {
+    /* color: black; */
+    /* background-color: rgb(215, 215, 215); */
+    background-image: url(img/ecosoy\ \(4\).png);
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+
+/* segundo card */
+
+.container2 {
+    position: relative;
+    /* bottom: 370px;
+    left: 320px; */
+    height: 370px;
+    width: 300px;
+    
+}
+
+
+.container2:hover .flip2 {
+    transform: rotateY(180deg);
+}
+
+.flip2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+.frente2, .tras2 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #0000001b;
+
+    backface-visibility: hidden;
+ 
+    
+}
+
+.frente2 {
+    background-image: url(img/gale.png);
+    background-size: cover;
+}
+
+.tras2 {
+    background-image: url(img/gale\ sobre.png);
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+/* Terceiro Card */
+
+.container3 {
+    position: relative;
+    /* bottom: 740px;
+    left: 640px; */
+    height: 370px;
+    width: 300px;
+    
+}
+
+
+.container3:hover .flip3 {
+    transform: rotateY(180deg);
+}
+
+.flip3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+.frente3, .tras3 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #0000001b;
+
+    backface-visibility: hidden;
+ 
+    
+}
+
+.frente3 {
+    background-image: url(img/animal\ \(1\).png);
+    background-size: cover;
+}
+
+.tras3 {
+    background-image: url(img/animal\ sobre\ \(2\).png);
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+/* Quarto Card */
+
+.container4 {
+    position: relative;
+    /* bottom: 1110px;
+    left: 960px; */
+    height: 370px;
+    width: 300px;
+    
+    
+}
+
+
+.container4:hover .flip4 {
+    transform: rotateY(180deg);
+}
+
+.flip4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+.frente4, .tras4 {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #0000001b;
+
+    backface-visibility: hidden;
+ 
+    
+}
+
+.frente4 {
+    background-image: url(img/bio\ \(1\).png);
+    background-size: cover;
+}
+
+.tras4 {
+    background-image: url(img/bio\ sobre.png);
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+/* #trabalhos {
     text-align: center;
     padding-bottom: 100px;
     margin-bottom: 100px;
@@ -169,7 +410,7 @@
 .container-cards {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* .cor2 {
     height: 90vh;
@@ -246,7 +487,7 @@
 
 .degrade1 img {
     height: 300px;
-    width: 1515px;
+    width: 1519px;
 }
 
 .titulo h2 {
@@ -281,7 +522,7 @@
 
 .degrade2 img {
     height: 300px;
-    width: 1515px;
+    width: 1519px;
 
     margin-top: -100px;
 }
@@ -313,3 +554,156 @@
     margin-left: 55px;
 }
 
+#equipe .titulo-equipe h2 {
+    font-size: 68px;
+    font-family: "Protest Guerrilla";
+
+    text-transform: capitalize;
+
+    text-align: center;
+}
+
+#cadastro {
+    font-size: 40px;
+    font-family: "Alatsi";
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+    margin-top: -150px;
+}
+
+#cadastro h2 {
+    margin-bottom: 70px;
+}
+
+#cadastro form {
+    background-color: #F2D2F9;
+    color: #A7A6B5;
+    font-family: "Gafata";
+    font-size: 20px;
+
+    width: 50%;
+
+    margin: 0 auto;
+
+    padding: 60px 0;
+    border-radius: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-transform: capitalize;
+}
+
+.campo {
+    width: 60%;
+
+    text-align: left;
+
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-descrição {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: #D639FA;
+    background-color: #FAE6FF;
+
+    border: none;
+    border-radius: 4px;
+
+    outline: none;
+
+    text-indent: 10px;
+}
+
+.campo-descrição textarea {
+    color: #D639FA;
+    background-color: #FAE6FF;
+
+    border: none;
+    border-radius: 4px;
+
+    outline: none;
+
+    resize: none;
+
+    padding: 10px;
+}
+
+.campo label,
+.campo-descrição label {
+    margin-bottom: 15px;
+}
+
+.campo input,
+.campo-descrição textarea {
+    font-size: 19px;
+    font-family:  "Gafata";
+
+    text-transform: capitalize;
+}
+
+.campo input::placeholder,
+.campo-descrição textarea::placeholder {
+    color: #A7A6B5;
+}
+
+.campo input:focus {
+    outline: 2px solid #D639FA;
+}
+
+.campo-descrição textarea:focus {
+    outline: 2px solid #D639FA;
+}
+
+#cadastro form button {
+    height: 40px;
+    width: 60%;
+
+    background-color: #FEFCD7;
+    color: #DB89DF;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "Alatsi";
+    font-weight: 700;
+    text-transform: capitalize;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+}
+
+#cadastro form button:hover {
+    background-color: #FCF586;
+}
+
+#footer img {
+    height: 300px;
+    width: 1519px;
+}
