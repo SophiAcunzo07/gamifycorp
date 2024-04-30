@@ -194,7 +194,7 @@
     left: 320px; */
     height: 370px;
     width: 300px;
-    
+
 }
 
 
@@ -214,7 +214,8 @@
 
 }
 
-.frente2, .tras2 {
+.frente2,
+.tras2 {
     position: absolute;
 
     width: 100%;
@@ -224,8 +225,8 @@
     box-shadow: 0px 0px 10px #0000001b;
 
     backface-visibility: hidden;
- 
-    
+
+
 }
 
 .frente2 {
@@ -247,7 +248,7 @@
     left: 640px; */
     height: 370px;
     width: 300px;
-    
+
 }
 
 
@@ -267,7 +268,8 @@
 
 }
 
-.frente3, .tras3 {
+.frente3,
+.tras3 {
     position: absolute;
 
     width: 100%;
@@ -277,8 +279,8 @@
     box-shadow: 0px 0px 10px #0000001b;
 
     backface-visibility: hidden;
- 
-    
+
+
 }
 
 .frente3 {
@@ -300,8 +302,8 @@
     left: 960px; */
     height: 370px;
     width: 300px;
-    
-    
+
+
 }
 
 
@@ -321,7 +323,8 @@
 
 }
 
-.frente4, .tras4 {
+.frente4,
+.tras4 {
     position: absolute;
 
     width: 100%;
@@ -331,8 +334,8 @@
     box-shadow: 0px 0px 10px #0000001b;
 
     backface-visibility: hidden;
- 
-    
+
+
 }
 
 .frente4 {
@@ -528,18 +531,18 @@
 }
 
 
-#equipe{
+#equipe {
     background-color: #FCF69A;
 
 }
 
-.pessoas{
+.pessoas {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.piao{
+.piao {
     width: 450px;
 }
 
@@ -661,7 +664,7 @@
 .campo input,
 .campo-descrição textarea {
     font-size: 19px;
-    font-family:  "Gafata";
+    font-family: "Gafata";
 
     text-transform: capitalize;
 }
@@ -706,4 +709,65 @@
 #footer img {
     height: 300px;
     width: 1519px;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1300px) {
+    .menu {
+        word-spacing: 20px;
+    }
+
+    #sobre h2 {
+        font-size: 55px;
+    }
+
+    #sobre p {
+        font-size: 20px;
+    }
+
+    #sobre img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .frente1 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .tras1 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .frente2 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .tras2 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .frente3 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .tras3 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .frente4 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .tras4 {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
