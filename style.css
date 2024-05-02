@@ -1,3 +1,5 @@
+/* FONTES */
+
 @font-face {
     font-family: "Alatsi";
     src: url(fonts/Alatsi/Alatsi-Regular.ttf);
@@ -20,6 +22,8 @@
     box-sizing: border-box;
 }
 
+/* BANNER */
+
 .banner img {
     margin: 0;
     padding: 0;
@@ -32,6 +36,8 @@
     position: relative;
     width: 100%;
 }
+
+/* MENU */
 
 .menu {
     position: absolute;
@@ -79,6 +85,8 @@
     text-decoration-color: #BC1FE1;
 }
 
+/* SOBRE */
+
 #sobre {
     display: flex;
     justify-content: space-between;
@@ -113,6 +121,8 @@
 
     margin-left: 20px;
 }
+
+/* CASES */
 
 #cases {
     height: 800px;
@@ -355,143 +365,14 @@
     gap: 40px;
 }
 
-
-/* #trabalhos {
-    text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-}
-
-#trabalhos h2 {
-    margin-bottom: 70px;
-}
-
-.card {
-    height: 400px;
-    width: 250px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    background-color: #BC1FE1;
-    border-radius: 4px;
-
-    align-items: center;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-
-}
-
-.card img {
-    height: 100%;
-    width: 100%;
-}
-
-.card button {
-    background-color: #FEFCD7;
-    color: #696757;
-
-    width: 90%;
-    height: 40px;
-
-    border: #FBEE37;
-    border-radius: 4px;
-
-    font-size: 17px;
-    font-family: "Alatsi";
-    font-weight: 600;
-
-    cursor: pointer;
-    transition: background-color 500ms ease;
-}
-
-.card button:hover {
-    background-color: #FCF586;
-}
-
-.container-cards {
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* .cor2 {
-    height: 90vh;
-
-    background-color: #FCF69A;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-}
-
-.fotos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-   
-    margin: 0 auto;
-   
-
-    position: absolute;
-    top: 2500px;
-    left: 150px;
-
-}
-
-.fotos img {
-    width: 275px;
-   
-    height: auto;
-
-    display: block;
-    margin: 0 auto 20px;
-}
-
-.textos {
-    display: flex;
-
-}
-
-.textos p {
-    font-family: "Gafata";
-    font-size: 24px;
-
-    text-align: center;
-
-    flex: 1;
-    margin: 150px 50px;
-   
-
-    margin-top: 400px;
-}
-
-.cor1 {
-    height: 20vh;
-
-    background-color: #FCF69A;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cor1 h2 {
-    font-size: 72px;
-    font-family: "Protest Guerrilla";
-    text-transform: capitalize;
-    text-align: center;
-
-    margin-top: 20px;
-} */
+/* DEGRADE */
 
 .degrade1 img {
     height: 300px;
     width: 1519px;
 }
+
+/* EQUIPE */
 
 .titulo h2 {
     font-size: 68px;
@@ -522,14 +403,6 @@
 
     text-align: center;
 }
-
-.degrade2 img {
-    height: 300px;
-    width: 1519px;
-
-    margin-top: -100px;
-}
-
 
 #equipe {
     background-color: #FCF69A;
@@ -565,6 +438,17 @@
 
     text-align: center;
 }
+
+/* DEGRADE */
+
+.degrade2 img {
+    height: 300px;
+    width: 1519px;
+
+    margin-top: -100px;
+}
+
+/* CADASTRO */
 
 #cadastro {
     font-size: 40px;
@@ -706,6 +590,8 @@
     background-color: #FCF586;
 }
 
+/* FOOTER */
+
 #footer img {
     height: 300px;
     width: 1519px;
@@ -731,43 +617,296 @@
         width: 350px;
     }
 
+    .degrade1 img {
+        width: 1300px;
+    }
+
+    .degrade2 img {
+        width: 1300px;
+    }
+
+    .paragrafos p {
+        font-size: 20px;
+    }
+
+    .piao p {
+        font-size: 20px;
+    }
+
+    .piao img {
+        height: auto;
+        margin-left: 55px;
+        width: 300px;
+    }
+
+    #footer img {
+        width: 1300px;
+    }
+
+    .card {
+        height: 320px;
+        width: 200px;
+    }
+
+    .alinhamento::-webkit-scrollbar {
+        display: none;
+    }
+
+    .alinhamento {
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+
+        height: 100%;
+        width: 100%;
+
+        flex-wrap: nowrap;
+
+        gap: 250px;
+
+        overflow-x: auto;
+
+
+        
+    }
+
     .frente1 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
+    }
+
+    .flip1 {
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
     }
 
     .tras1 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+        
+    }
+
+    .frente:first-child {
+        margin-left: 30px;
+    }
+
+    .frente1:last-child {
+        margin-right: 30px;
     }
 
     .frente2 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
+    }
+
+    .flip2 {
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
     }
 
     .tras2 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
     }
 
+        /* .frente2:first-child {
+            margin-left: 30px;
+        }
+
+        .frente2:last-child {
+            margin-right: 30px;
+        } */
+
     .frente3 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
+    }
+
+    .flip3 {
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
     }
 
     .tras3 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
     }
 
+
     .frente4 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
+    }
+
+    .flip4 {
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+        background-size: cover;
     }
 
     .tras4 {
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 400px;
+        width: 300px;
+
+        flex-basis: unset;
+
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .menu {
+        word-spacing: 6px;
+    }
+
+    .banner img {
+        width: 1080px;
+    }
+
+    .degrade1 img {
+        width: 1080px;
+    }
+
+    .degrade2 img {
+        width: 1080px;
+    }
+
+    #footer img {
+        width: 1080px;
+        height: 250px;
+    }
+
+    .paragrafos p {
+        font-size: 17px;
+    }
+
+    .piao p {
+        font-size: 17px;
+    }
+
+    #cases .alinhamento {
+        gap: 350px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .banner img {
+        width: 800px;
+    }
+
+    #sobre h2 {
+        font-size: 45px;
+    }
+
+    #sobre p {
+        font-size: 15px;
+    }
+
+    #sobre img {
+        height: 250px;
+        width: 350px;
+    }
+
+    #sobre {
+        margin-top: -40px;
+    }
+
+    #equipe .titulo-equipe h2 {
+        font-size: 45px;
+    }
+
+    .piao img {
+        height: auto;
+        width: 200px;
+        margin-left: 55px;
+    }
+
+    .degrade1 img {
+        width: 800px;
+    }
+
+    .degrade2 img {
+        width: 800px;
+    }
+
+    #footer img {
+        width: 800px;
+        height: 200px;
+        margin-top: -120px;
+    }
+
+    #cases h2 {
+        padding: 50px 0 50px 0;
+        font-size: 45px;
+    }
+
+    .piao p {
+        font-size: 15px;
+    }
+
+    .titulo h2 {
+        font-size: 45px;
+    }
+
+    .paragrafos p {
+        font-size: 13px;
+
+    }
+
+    .camoo,
+    .campo-descrição,
+    #contato form button {
+        width: 75%;
+    }
+
+    .menu ul a {
+        font-size: 15px;
+    }
+
+    #cadastro {
+        font-size: 35px;
+        margin-top: -100px;
+    }
+
+    #equipe {
+        margin-top: -120px;
     }
 }
