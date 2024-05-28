@@ -1000,7 +1000,7 @@
     .piao img {
         height: auto;
         width: 100px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .piao p {
@@ -1062,9 +1062,9 @@
     }
 
     .menu {
-        word-spacing: 2px;
-        font-size: 10px;
-        padding: 3px;
+        word-spacing: 1px;
+        font-size: 7px;
+        padding: 4px;
     }
 
 }
