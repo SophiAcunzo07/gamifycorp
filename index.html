@@ -26,6 +26,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -205,7 +207,7 @@
     <section id="cadastro">
         <h2>cadastro</h2>
 
-        <form>
+        <form onsubmit="solicitarOrcamento()">
             <div class="campo">
                 <label for="campo-nome">adicione seu nome</label>
                 <input id="campo-nome" placeholder="digite o seu nome..." type="text">
@@ -216,10 +218,10 @@
                 <input id="campo-email" placeholder="digite seu email..." type="email" name="" id="">
             </div>
 
-            <div class="campo-descrição">
-                <label for="campo-descri">assunto...</label>
-                <textarea id="campo-descri" placeholder="descreva sua empresa e o probelma que enfrenta..." name=""
-                    id="" cols="30" rows="10"></textarea>
+            <div class="campo-descricao">
+                <label for="">assunto...</label>
+                <textarea id="campo-descri" placeholder="descreva sua empresa e o probelma que enfrenta..."
+                    id="campo-texto" cols="30" rows="10"></textarea>
             </div>
 
             <button type="submit">enviar</button>
